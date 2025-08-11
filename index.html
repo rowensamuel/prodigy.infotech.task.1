@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Nav Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <h1>Welcome to Our Website</h1>
+    <p>Discover interactive designs, smooth animations, and a modern user experience. Scroll down to explore more.</p>
+    <img src="OIP.jpg" alt="Welcome" style="max-width:100%;border-radius:10px;">
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h1>About Us</h1>
+    <p>We are a creative team dedicated to building modern, responsive, and interactive web experiences. Our mission is to blend design and technology seamlessly.</p>
+    <div class="card-container">
+      <div class="card">
+        <h3>Our Vision</h3>
+        <p>To inspire innovation through design.</p>
+      </div>
+      <div class="card">
+        <h3>Our Mission</h3>
+        <p>Deliver engaging, functional websites that delight users.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h1>Our Services</h1>
+    <div class="card-container">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Beautiful, responsive, and user-friendly layouts.</p>
+      </div>
+      <div class="card">
+        <h3>Development</h3>
+        <p>Fast, secure, and scalable web applications.</p>
+      </div>
+      <div class="card">
+        <h3>SEO Optimization</h3>
+        <p>Boost your online presence and reach more customers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Fill out the form below to get in touch.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea placeholder="Your Message" rows="4" required></textarea><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <button id="backToTop">&#8679;</button>
+  <script src="script.js"></script>
+</body>
+</html>
